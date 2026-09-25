@@ -36,12 +36,12 @@ class DatacenterManager:
         else:
             raise DeviceNotFoundError(f"Resursen '{enhet_id}' hittades inte i datacentret.")
 
-    def kor_systemdiagnostik(self) -> str:
+    def kor_systemdiagnostik(self) -> list[str]:
         """Kör diagnostik på alla registrerade resurser och returnerar en samlad rapport."""
         rapporter = []
         for resurs in self.resurser.values():
             rapporter.append(resurs.kor_diagnostik())
-        return "\n".join(rapporter)
+        return rapporter
 
     def ladda_fran_json(self, filvag: str) -> int:
         """Laddar enheter från en JSON-fil och lägger till dem i systemet."""
