@@ -1,0 +1,42 @@
+[
+  {
+    "typ": "server",
+    "enhet_id": "SRV-01",
+    "fabrikat": "Dell",
+    "ip_adress": "192.168.1.10",
+    "natverk_typ": "INTRANÄT"
+  },
+  {
+    "typ": "server",
+    "enhet_id": "SRV-02",
+    "fabrikat": "HPE",
+    "ip_adress": "192.168.1.11",
+    "natverk_typ": "DMZ"
+  },
+  {
+    "typ": "server",
+    "enhet_id": "SRV-03",
+    "fabrikat": "HPE",
+    "ip_adress": "192.168.1.12",
+    "natverk_typ": "DMZ"
+  },
+  {
+    "typ": "server",
+    "enhet_id":"SRV-04",
+    "fabrikat": "Dell",
+    "ip_adress": "192.168.1.13",
+    "natverk_typ": "INTRANÄT"
+  },
+  {
+    "typ": "kylaggregat",
+    "enhet_id": "COOL-01",
+    "fabrikat": "Rittal",
+    "temp": 19.5
+  },
+  {
+    "typ": "switch",
+    "enhet_id": "SW-01",
+    "fabrikat": "Cisco",
+    "antal_portar": 48
+  }
+] 
